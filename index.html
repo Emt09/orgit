@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Color Grading App</title>
+  </head>
+  <body>
+    <h1>Image Color Grading App</h1>
+    <form method="post" enctype="multipart/form-data" action="{{ url_for('upload_file') }}">
+      <input type="file" name="file">
+      <input type="submit" value="Upload">
+    </form>
+  </body>
+</html>
